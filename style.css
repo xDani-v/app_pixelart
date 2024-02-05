@@ -42,6 +42,15 @@ button {
     border: none;
     border-radius: 5px;
     padding: 5px;
+    transition: background-color 0.3s ease;
+    /* Agrega una transición suave al cambio de color de fondo */
+    cursor: pointer;
+    /* Cambia el cursor cuando está sobre el botón */
+}
+
+button:hover {
+    background-color: #e0ac24;
+    /* Cambia el color de fondo al pasar el ratón sobre el botón */
 }
 
 input[type="color"] {
